@@ -4,10 +4,10 @@ Summary(pl):	Modu³ perla Crypt-Passwd
 Name:		perl-Crypt-Passwd
 Version:	0.03
 Release:	3
-Copyright:	GPL
+License:	GPL
 Group:		Development/Languages/Perl
 Group(pl):	Programowanie/Jêzyki/Perl
-Source:		ftp://ftp.perl.org/pub/CPAN/modules/by-module/Crypt/Crypt-Passwd-%{version}.tar.gz
+Source0:	ftp://ftp.perl.org/pub/CPAN/modules/by-module/Crypt/Crypt-Passwd-%{version}.tar.gz
 BuildRequires:	rpm-perlprov >= 3.0.3-16
 BuildRequires:	perl >= 5.005_03-14
 BuildRequires:	perl-Digest-MD5
