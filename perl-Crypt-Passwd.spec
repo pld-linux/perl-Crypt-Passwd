@@ -1,12 +1,12 @@
 %include	/usr/lib/rpm/macros.perl
 %define	pdir	Crypt
 %define	pnam	Passwd
-Summary:	Crypt::Passwd perl module
-Summary(pl):	Modu³ perla Crypt::Passwd
+Summary:	Crypt::Passwd - Interface to the UFC-Crypt library
+Summary(pl):	Crypt::Passwd - interfejs do biblioteki UFC-Crypt
 Name:		perl-Crypt-Passwd
 Version:	0.03
 Release:	7
-License:	GPL
+License:	Artistic or GPL
 Group:		Development/Languages/Perl
 Source0:	ftp://ftp.cpan.org/pub/CPAN/modules/by-module/%{pdir}/%{pdir}-%{pnam}-%{version}.tar.gz
 BuildRequires:	perl >= 5.6
@@ -15,10 +15,10 @@ BuildRequires:	rpm-perlprov >= 3.0.3-16
 BuildRoot:	%{tmpdir}/%{name}-%{version}-root-%(id -u -n)
 
 %description
-Crypt::Passwd - Interface to the UFC-Crypt library.
+Crypt::Passwd Perl module - Interface to the UFC-Crypt library.
 
 %description -l pl
-Crypt::Passwd - interfejs do biblioteki UFC-Crypt.
+Modu³ Perla Crypt::Passwd - interfejs do biblioteki UFC-Crypt.
 
 %prep
 %setup -q -n %{pdir}-%{pnam}-%{version}
