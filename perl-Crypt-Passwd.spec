@@ -26,7 +26,7 @@ Modu³ Perla Crypt::Passwd - interfejs do biblioteki UFC-Crypt.
 
 %build
 %{__perl} Makefile.PL \
-	INSTALLDIRS=vendor 
+	INSTALLDIRS=vendor
 %{__make} OPTIMIZE="%{rpmcflags}"
 
 %install
