@@ -1,12 +1,11 @@
+%include	/usr/lib/rpm/macros.perl
 %define	pdir	Crypt
 %define	pnam	Passwd
-%include	/usr/lib/rpm/macros.perl
 Summary:	Crypt-Passwd perl module
 Summary(pl):	Modu³ perla Crypt-Passwd
 Name:		perl-Crypt-Passwd
 Version:	0.03
-Release:	6
-
+Release:	7
 License:	GPL
 Group:		Development/Languages/Perl
 Source0:	ftp://ftp.perl.org/pub/CPAN/modules/by-module/%{pdir}/%{pdir}-%{pnam}-%{version}.tar.gz
@@ -22,7 +21,7 @@ Crypt-Passwd - Interface to the UFC-Crypt library.
 Crypt-Passwd - interfejs do biblioteki UFC-Crypt.
 
 %prep
-%setup -q -n Crypt-Passwd-%{version}
+%setup -q -n %{pdir}-%{pnam}-%{version}
 
 %build
 perl Makefile.PL
