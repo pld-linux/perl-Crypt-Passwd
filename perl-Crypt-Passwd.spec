@@ -6,7 +6,7 @@
 %define		pdir	Crypt
 %define		pnam	Passwd
 Summary:	Crypt::Passwd - interface to the UFC-Crypt library
-Summary(pl):	Crypt::Passwd - interfejs do biblioteki UFC-Crypt
+Summary(pl.UTF-8):   Crypt::Passwd - interfejs do biblioteki UFC-Crypt
 Name:		perl-Crypt-Passwd
 Version:	0.03
 Release:	9
@@ -24,9 +24,9 @@ BuildRoot:	%{tmpdir}/%{name}-%{version}-root-%(id -u -n)
 Crypt::Passwd Perl module provides an interface layer between Perl 5
 and Michael Glad's UFC Crypt library.
 
-%description -l pl
-Modu³ Perla Crypt::Passwd udostêpnia warstwê interfejsu pomiêdzy
-Perlem 5 a bibliotek± UFC Crypt Michaela Glada.
+%description -l pl.UTF-8
+ModuÅ‚ Perla Crypt::Passwd udostÄ™pnia warstwÄ™ interfejsu pomiÄ™dzy
+Perlem 5 a bibliotekÄ… UFC Crypt Michaela Glada.
 
 %prep
 %setup -q -n %{pdir}-%{pnam}-%{version}
