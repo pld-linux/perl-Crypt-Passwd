@@ -6,7 +6,7 @@
 %define		pdir	Crypt
 %define		pnam	Passwd
 Summary:	Crypt::Passwd - interface to the UFC-Crypt library
-Summary(pl.UTF-8):   Crypt::Passwd - interfejs do biblioteki UFC-Crypt
+Summary(pl.UTF-8):	Crypt::Passwd - interfejs do biblioteki UFC-Crypt
 Name:		perl-Crypt-Passwd
 Version:	0.03
 Release:	9
