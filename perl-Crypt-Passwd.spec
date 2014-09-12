@@ -54,6 +54,5 @@ rm -rf $RPM_BUILD_ROOT
 %doc Changes README
 %{perl_vendorarch}/Crypt/Passwd.pm
 %dir %{perl_vendorarch}/auto/Crypt/Passwd
-%{perl_vendorarch}/auto/Crypt/Passwd/Passwd.bs
 %attr(755,root,root) %{perl_vendorarch}/auto/Crypt/Passwd/Passwd.so
 %{_mandir}/man3/*
