@@ -9,7 +9,7 @@ Summary:	Crypt::Passwd - interface to the UFC-Crypt library
 Summary(pl.UTF-8):	Crypt::Passwd - interfejs do biblioteki UFC-Crypt
 Name:		perl-Crypt-Passwd
 Version:	0.03
-Release:	20
+Release:	21
 # same as perl and/or UFC-Crypt library
 License:	GPL v1+ or Artistic
 Group:		Development/Languages/Perl
