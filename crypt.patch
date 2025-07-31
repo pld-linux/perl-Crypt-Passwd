@@ -1,0 +1,22 @@
+--- Crypt-Passwd-0.03/config.h.orig	1998-08-17 17:50:41.000000000 +0200
++++ Crypt-Passwd-0.03/config.h	2025-07-31 15:25:50.866198782 +0200
+@@ -8,7 +8,7 @@
+   */
+ 
+ /* crypt() function to use. Comment to skip this function. */
+-#define STD_CRYPT fcrypt
++#define STD_CRYPT crypt
+ 
+ /* crypt16() function to use. Comment to skip this function. */
+ /* #define EXT_CRYPT crypt16 */
+--- Crypt-Passwd-0.03/passwd.h.orig	1998-08-17 17:50:41.000000000 +0200
++++ Crypt-Passwd-0.03/passwd.h	2025-07-31 15:24:18.305498606 +0200
+@@ -11,7 +11,7 @@
+ #ifdef STD_CRYPT
+ /* This is the traditional UNIX crypt() function */
+ char*
+-STD_CRYPT(char* password, char* salt);
++STD_CRYPT(const char* password, const char* salt);
+ #endif
+ 
+ #ifdef EXT_CRYPT

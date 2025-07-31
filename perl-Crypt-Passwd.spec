@@ -14,6 +14,7 @@ License:	GPL v1+ or Artistic
 Group:		Development/Languages/Perl
 Source0:	http://www.cpan.org/modules/by-module/Crypt/%{pdir}-%{pnam}-%{version}.tar.gz
 # Source0-md5:	66d9794442e27f33ad05685035082aa9
+Patch0:		crypt.patch
 URL:		http://search.cpan.org/dist/Crypt-Passwd/
 BuildRequires:	perl-devel >= 1:5.8.0
 BuildRequires:	perl-Digest-MD5
@@ -30,6 +31,7 @@ Perlem 5 a biblioteką UFC Crypt Michaela Glada.
 
 %prep
 %setup -q -n %{pdir}-%{pnam}-%{version}
+%patch -P0 -p1
 
 %build
 %{__perl} Makefile.PL \
